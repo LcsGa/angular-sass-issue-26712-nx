@@ -20,7 +20,10 @@
           "apps/angular-sass-issue-26712-nx/src/favicon.ico",
           "apps/angular-sass-issue-26712-nx/src/assets"
         ],
-        "styles": ["apps/angular-sass-issue-26712-nx/src/styles.scss"],
+        "styles": [
+          "apps/angular-sass-issue-26712-nx/src/styles.scss",
+          "dist/libs/components/styles/style.scss"
+        ],
         "scripts": []
       },
       "configurations": {

@@ -1,0 +1,9 @@
+@use './responsive';
+
+body {
+  background: #333;
+
+  @include responsive.mobile {
+    background: rgb(197, 168, 168);
+  }
+}

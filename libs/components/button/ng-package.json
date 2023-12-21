@@ -1,0 +1,7 @@
+{
+  "inlineStyleLanguage": "scss",
+  "lib": {
+    "entryFile": "src/index.ts",
+    "styleIncludePaths": ["../styles"]
+  }
+}

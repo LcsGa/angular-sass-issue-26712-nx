@@ -1,14 +1,11 @@
 import { Component } from '@angular/core';
-import { RouterModule } from '@angular/router';
-import { NxWelcomeComponent } from './nx-welcome.component';
+import { ButtonComponent } from '@org/components/button';
 
 @Component({
   standalone: true,
-  imports: [NxWelcomeComponent, RouterModule],
+  imports: [ButtonComponent],
   selector: 'angular-sass-issue-26712-nx-root',
-  templateUrl: './app.component.html',
-  styleUrl: './app.component.scss',
+  template:
+    '<org-button>Text should become red on screen width < 420px</org-button>',
 })
-export class AppComponent {
-  title = 'angular-sass-issue-26712-nx';
-}
+export class AppComponent {}
