@@ -15,8 +15,11 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@org/components": ["libs/components/src/index.ts"],
-      "@org/components/button": ["libs/components/button/src/index.ts"]
+      "@org/components": [
+        "dist/libs/components",
+        "libs/components/src/index.ts"
+      ],
+      "@org/components/*": ["dist/libs/components/*", "libs/components/*"]
     }
   },
   "exclude": ["node_modules", "tmp"]
