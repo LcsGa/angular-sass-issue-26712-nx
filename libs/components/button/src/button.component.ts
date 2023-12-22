@@ -10,8 +10,6 @@ import { Component } from '@angular/core';
       @include responsive.mobile {
         color: red;
       }
-
-      // @media (width < 420px) { color: red }
     }
   `,
   template: '<button><ng-content /></button>',
